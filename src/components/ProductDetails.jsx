@@ -12,7 +12,7 @@ const ProductDetails = () => {
     const fetchProduct = async () => {
       try {
         const response = await fetch(
-          'https://run.mocky.io/v3/cd732cd7-b142-4c61-801c-02401b10051a'
+          'https://run.mocky.io/v3/68056f0d-605b-4a31-af9f-be62e32b414e'
         );
         
         const data = await response.json();

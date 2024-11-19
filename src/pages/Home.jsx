@@ -18,7 +18,7 @@ const Home = () => {
     const fetchProducts = async () => {
       try {
         const response = await fetch(
-          "https://run.mocky.io/v3/cd732cd7-b142-4c61-801c-02401b10051a"
+          "https://run.mocky.io/v3/68056f0d-605b-4a31-af9f-be62e32b414e"
         );
         if (!response.ok) {
           throw new Error("Network response was not ok");
