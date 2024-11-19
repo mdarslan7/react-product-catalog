@@ -51,22 +51,6 @@ const ProductItem = ({ product }) => {
             Add to Cart
           </button>
         </div>
-
-        {product.stock <= 5 && product.stock > 0 && (
-          <div className="mt-3 text-center">
-            <span className="text-xs text-orange-600 bg-orange-50 px-2 py-1 rounded-full">
-              Only {product.stock} left in stock
-            </span>
-          </div>
-        )}
-        
-        {product.stock === 0 && (
-          <div className="mt-3 text-center">
-            <span className="text-xs text-red-600 bg-red-50 px-2 py-1 rounded-full">
-              Out of Stock
-            </span>
-          </div>
-        )}
       </div>
     </div>
   );
