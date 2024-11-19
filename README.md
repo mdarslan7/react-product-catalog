@@ -66,3 +66,9 @@ Here are some screenshots of the app:
 - **Search and Category Filter Issues**: One of the challenges was making the search and category filter work correctly when the cart functionality was added. Initially, both features were not behaving as expected when interacting with the cart. This issue was resolved by properly managing the state and ensuring the filters only applied to the products displayed.
   
 - **Handling State Management**: With multiple states being managed (search, categories, cart), it became challenging to ensure state updates happened in the right order. I had to carefully manage the states in the context to prevent unnecessary re-renders and ensure that data was passed correctly across components.
+
+## Resources and Assistance
+
+While developing this project, AI tools and online research were used for minor assistance and troubleshooting, as allowed by the guidelines. A record of the prompts and queries can be found in the document below:
+
+- [Documentation: AI Tools, Prompts, and Research](https://docs.google.com/document/d/1X8qYJAZjTqpX6BnDRTlktYiUl1jsV65EScIpM1oVN1U/edit?usp=sharing
