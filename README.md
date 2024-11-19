@@ -45,7 +45,7 @@ Follow the steps below to run the project locally.
 - **Animations**: Added a small animation to the cart icon when there are items in the cart.
 - **Sorting**: Products can be filtered by category and searched by name.
 - **Cart Page**: Added a cart page to view and manage items in the cart.
-- **Footer**: Added a footer with basic information about the app (not explicitly required).
+- **Footer**: Added a footer with the name of the app.
 - **Mock API Integration**: Replaced the static `products.json` data with a mock API for fetching product data.
 
 ## Screenshots
