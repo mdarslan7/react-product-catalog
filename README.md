@@ -16,19 +16,22 @@ This is a simple single-page application (SPA) built with React that showcases a
 
 Follow the steps below to run the project locally.
 
-1. **Clone the repository**:
+1. **Ensure Node.js is installed**:
+   Make sure you have Node.js installed on your system. You can download and install it from [nodejs.org](https://nodejs.org/).
+
+2. **Clone the repository**:
 
    ```bash
    git clone https://github.com/mdarslan7/react-product-catalog.git
    cd react-product-catalog
    ```
    
-2. **Install the dependencies**:
+3. **Install the dependencies**:
     ```bash
    npm install
    ```
    
-3. **Start the application**:
+4. **Start the application**:
     ```bash
    npm start
    ```
@@ -45,7 +48,7 @@ Follow the steps below to run the project locally.
 - **Animations**: Added a small animation to the cart icon when there are items in the cart.
 - **Sorting**: Products can be filtered by category and searched by name.
 - **Cart Page**: Added a cart page to view and manage items in the cart.
-- **Footer**: Added a footer with basic information about the app (not explicitly required).
+- **Footer**: Added a footer with the name of the app.
 - **Mock API Integration**: Replaced the static `products.json` data with a mock API for fetching product data.
 
 ## Screenshots
@@ -54,7 +57,7 @@ Here are some screenshots of the app:
 - **Homepage**:
    ![Homepage](./assets/homepage.png) <br><br>
 - **Product Details Page**:
-   ![Product Details](./assets/product-details.png)
+   ![Product Details](./assets/product-details.png) <br><br>
 - **Cart Page**:
    ![Cart Page](./assets/cart.png)
 
@@ -62,4 +65,10 @@ Here are some screenshots of the app:
 
 - **Search and Category Filter Issues**: One of the challenges was making the search and category filter work correctly when the cart functionality was added. Initially, both features were not behaving as expected when interacting with the cart. This issue was resolved by properly managing the state and ensuring the filters only applied to the products displayed.
   
-- **Handling State Management**: With multiple states being managed (search, categories, cart), it became challenging to ensure state updates happened in the right order. We had to carefully manage the states in the context to prevent unnecessary re-renders and ensure that data was passed correctly across components.
+- **Handling State Management**: With multiple states being managed (search, categories, cart), it became challenging to ensure state updates happened in the right order. I had to carefully manage the states in the context to prevent unnecessary re-renders and ensure that data was passed correctly across components.
+
+## Resources and Assistance
+
+While developing this project, AI tools and online research were used for minor assistance and troubleshooting, as allowed by the guidelines. A record of the prompts and queries can be found in the document below:
+
+- [Documentation: AI Tools, Prompts, and Research](https://docs.google.com/document/d/1X8qYJAZjTqpX6BnDRTlktYiUl1jsV65EScIpM1oVN1U/edit?usp=sharing
