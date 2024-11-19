@@ -9,14 +9,13 @@ export const CartProvider = ({ children }) => {
     setCartItems((prev) => {
       const existing = prev.find((item) => item.id === product.id);
       if (existing) {
-        // Adjust quantity dynamically
         return prev.map((item) =>
           item.id === product.id
             ? { ...item, quantity: item.quantity + (product.quantity || 1) }
             : item
         );
       }
-      return [...prev, { ...product, quantity: 1 }]; // Add as a new product with quantity 1
+      return [...prev, { ...product, quantity: 1 }];
     });
   };
   
