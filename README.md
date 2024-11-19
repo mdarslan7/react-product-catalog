@@ -54,7 +54,7 @@ Here are some screenshots of the app:
 - **Homepage**:
    ![Homepage](./assets/homepage.png) <br><br>
 - **Product Details Page**:
-   ![Product Details](./assets/product-details.png)
+   ![Product Details](./assets/product-details.png) <br><br>
 - **Cart Page**:
    ![Cart Page](./assets/cart.png)
 
