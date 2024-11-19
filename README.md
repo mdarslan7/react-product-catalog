@@ -16,19 +16,22 @@ This is a simple single-page application (SPA) built with React that showcases a
 
 Follow the steps below to run the project locally.
 
-1. **Clone the repository**:
+1. **Ensure Node.js is installed**:
+   Make sure you have Node.js installed on your system. You can download and install it from [nodejs.org](https://nodejs.org/).
+
+2. **Clone the repository**:
 
    ```bash
    git clone https://github.com/mdarslan7/react-product-catalog.git
    cd react-product-catalog
    ```
    
-2. **Install the dependencies**:
+3. **Install the dependencies**:
     ```bash
    npm install
    ```
    
-3. **Start the application**:
+4. **Start the application**:
     ```bash
    npm start
    ```
