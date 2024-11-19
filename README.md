@@ -71,4 +71,4 @@ Here are some screenshots of the app:
 
 While developing this project, AI tools and online research were used for minor assistance and troubleshooting, as allowed by the guidelines. A record of the prompts and queries can be found in the document below:
 
-- [Documentation: AI Tools, Prompts, and Research](https://docs.google.com/document/d/1X8qYJAZjTqpX6BnDRTlktYiUl1jsV65EScIpM1oVN1U/edit?usp=sharing
+- [Documentation: AI Tools, Prompts, and Research] https://docs.google.com/document/d/1X8qYJAZjTqpX6BnDRTlktYiUl1jsV65EScIpM1oVN1U/edit?usp=sharing
