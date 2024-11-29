@@ -2,17 +2,19 @@ import React from 'react';
 
 const CategoryFilter = ({ categories, selectedCategories, onChange }) => {
   return (
-    <div className="mb-4">
+    <div className="flex items-center space-x-4">
       {categories.map(category => (
-        <label key={category} className="mr-4">
-          <input
-            type="checkbox"
-            checked={selectedCategories.includes(category)}
-            onChange={() => onChange(category)}
-            className="mr-2"
-          />
+        <button
+          key={category}
+          onClick={() => onChange(category)}
+          className={`px-4 py-2 rounded-full transition-colors duration-300 ${
+            selectedCategories.includes(category)
+              ? 'bg-blue-500 text-white hover:bg-blue-600'
+              : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+          }`}
+        >
           {category}
-        </label>
+        </button>
       ))}
     </div>
   );
